@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "fastify": "^5.12.5"
+  }
+}
+
