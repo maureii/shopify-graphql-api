@@ -26,21 +26,6 @@ const PRODUCT_CREATE_MUTATION = `
   }
 `;
 
-// const JSON = {
-//   title: 'Test Product',
-//   descriptionHtml: 'Test Product Description Lorem Ipsum Dolor Col Es Lorem Ipsum Dolor Col Es Lorem Ipsum Dolor Col Es',
-//   productType: 'Television', 
-//   handle: 'testing-television-samsung',
-//   status: 'DRAFT',
-//   vendor: 'SAMSUNG',
-//   tags: ['TV', '4k', 'UHD'],
-//   seo: {
-//     description: 'SEO Test Product Description Lorem Ipsum Dolor Col Es Lorem Ipsum Dolor Col Es Lorem Ipsum Dolor Col Es',
-//     title: 'SEO Test Product'
-//   }
-// };
-
-
 const productCreate = async (input) => {
 
     const isObject = typeof(input) === 'object' && input !== null;
